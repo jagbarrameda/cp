@@ -1,0 +1,7 @@
+sequence sequence
+person compression
+VERDI vivaVittorioEmanueleReDiItalia
+caseDoesMatter CaseDoesMatter
+CaseDoesMatter CaseDoesMatter
+ab abc
+ab cab
