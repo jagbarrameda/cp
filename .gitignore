@@ -50,8 +50,8 @@ Temporary Items
 # compiled programs
 # ===================
 
-.class
-.java
+**.class
+**.exe
 
 # intellij
 
