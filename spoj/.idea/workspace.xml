@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be06a94c-c367-48f5-a3ea-f1b942862dcf" name="Default" comment="Solved ALTSEQ">
-      <change afterPath="$PROJECT_DIR$/src/M381Chicago.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/M381Chicago.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m10Cmexpr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/m8cmpls.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/m8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/m8CMPLS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,11 +320,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/jbarrameda/Library/CloudStorage/GoogleDrive-jagbarrameda@gmail.com/My Drive/proyectos/source/acm/spoj/out/production/spoj",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "database.query.execution"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out/production/spoj" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="C:\Users\Barrameda\Dropbox\My Documents\concurso\spoj\src" />
@@ -332,7 +341,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.M381Chicago">
+  <component name="RunManager" selected="Application.m10Cmexpr">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -520,14 +529,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BLCONE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BLCONE" />
-      <module name="spoj" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Hmro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hmro" />
       <module name="spoj" />
@@ -546,6 +547,22 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="m10Cmexpr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="m10Cmexpr" />
+      <module name="spoj" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/out/production/spoj" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="m8CMPLS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="m8CMPLS" />
+      <module name="spoj" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/out/production/spoj" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -591,18 +608,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.m10Cmexpr" />
+      <item itemvalue="Application.m8CMPLS" />
       <item itemvalue="Application.M381Chicago" />
-      <item itemvalue="Application.BLCONE" />
       <item itemvalue="Application.Hmro" />
       <item itemvalue="Application.Altseq" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.m10Cmexpr" />
+        <item itemvalue="Application.m8CMPLS" />
         <item itemvalue="Application.M381Chicago" />
         <item itemvalue="Application.M381Chicago" />
         <item itemvalue="Application.Altseq" />
-        <item itemvalue="Application.Hmro" />
-        <item itemvalue="Application.BLCONE" />
       </list>
     </recent_temporary>
   </component>
@@ -624,7 +642,7 @@
       <workItem from="1488552693418" duration="2812000" />
       <workItem from="1488558033297" duration="3438000" />
       <workItem from="1489752812869" duration="7950000" />
-      <workItem from="1664480827224" duration="15605000" />
+      <workItem from="1664480827224" duration="45009000" />
     </task>
     <task id="LOCAL-00001" summary="Solved ALTSEQ">
       <created>1489762266876</created>
@@ -906,6 +924,31 @@
           <url>file://$PROJECT_DIR$/src/Altseq.java</url>
           <line>59</line>
           <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/m8CMPLS.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/m10Cmexpr.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/m10Cmexpr.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/m10Cmexpr.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/m10Cmexpr.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
