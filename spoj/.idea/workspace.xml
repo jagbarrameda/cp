@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be06a94c-c367-48f5-a3ea-f1b942862dcf" name="Default" comment="Solved ALTSEQ">
-      <change afterPath="$PROJECT_DIR$/src/m10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m10Cmexpr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/m8cmpls.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/m8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/m8CMPLS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,23 +311,23 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/jbarrameda/Library/CloudStorage/GoogleDrive-jagbarrameda@gmail.com/My Drive/proyectos/source/acm/spoj/out/production/spoj",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "database.query.execution"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jbarrameda/Library/CloudStorage/GoogleDrive-jagbarrameda@gmail.com/My Drive/proyectos/source/acm/spoj/src&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/out/production/spoj" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/out/production/spoj" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -341,7 +337,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.m10Cmexpr">
+  <component name="RunManager" selected="Application.m15Shpath">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -521,30 +517,6 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="Altseq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Altseq" />
-      <module name="spoj" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hmro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hmro" />
-      <module name="spoj" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="M381Chicago" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="M381Chicago" />
-      <module name="spoj" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/out/production/spoj" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -559,8 +531,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="m11Fctrl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="m11Fctrl" />
+      <module name="spoj" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/out/production/spoj" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="m15Shpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="m15Shpath" />
+      <module name="spoj" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/out/production/spoj" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="m8CMPLS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="m8CMPLS" />
+      <module name="spoj" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/out/production/spoj" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mIntest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mIntest" />
       <module name="spoj" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/out/production/spoj" />
       <method v="2">
@@ -608,19 +604,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.mIntest" />
+      <item itemvalue="Application.m15Shpath" />
       <item itemvalue="Application.m10Cmexpr" />
+      <item itemvalue="Application.m11Fctrl" />
       <item itemvalue="Application.m8CMPLS" />
-      <item itemvalue="Application.M381Chicago" />
-      <item itemvalue="Application.Hmro" />
-      <item itemvalue="Application.Altseq" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.m15Shpath" />
+        <item itemvalue="Application.mIntest" />
+        <item itemvalue="Application.m11Fctrl" />
         <item itemvalue="Application.m10Cmexpr" />
         <item itemvalue="Application.m8CMPLS" />
-        <item itemvalue="Application.M381Chicago" />
-        <item itemvalue="Application.M381Chicago" />
-        <item itemvalue="Application.Altseq" />
       </list>
     </recent_temporary>
   </component>
@@ -642,7 +638,8 @@
       <workItem from="1488552693418" duration="2812000" />
       <workItem from="1488558033297" duration="3438000" />
       <workItem from="1489752812869" duration="7950000" />
-      <workItem from="1664480827224" duration="45009000" />
+      <workItem from="1664480827224" duration="53279000" />
+      <workItem from="1666641297048" duration="15342000" />
     </task>
     <task id="LOCAL-00001" summary="Solved ALTSEQ">
       <created>1489762266876</created>
@@ -739,6 +736,39 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="ad202bfa-b73b-4b3f-b694-f61448fca24b">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/.." />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="ad202bfa-b73b-4b3f-b694-f61448fca24b" value="TOOL_WINDOW" />
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -949,6 +979,16 @@
           <url>file://$PROJECT_DIR$/src/m10Cmexpr.java</url>
           <line>26</line>
           <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/m15Shpath.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/m15Shpath.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
