@@ -9,15 +9,15 @@ class m2946 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String line = br.readLine();
         int n = Integer.parseInt(line);
-        int i = 0;
+        int i;
         setVals();
         StringBuilder sb = new StringBuilder();
 
         while (n-- > 0) {
             line = br.readLine();
             i = Integer.parseInt(line);
-            if ((i & 1) == 1) sb.append((i << 1) + newline);
-            else sb.append(b[i] + newline);
+            if ((i & 1) == 1) sb.append((i << 1)).append(newline);
+            else sb.append(b[i]).append(newline);
         }
         System.out.println(sb.toString());
     }
@@ -37,7 +37,7 @@ class m2946 {
         String line = br.readLine();
 
         int n = Integer.parseInt(line);
-        int i = 0;
+        int i;
 
         while (n-- > 0) {
             line = br.readLine();

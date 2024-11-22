@@ -70,7 +70,6 @@ public class m15Shpath {
 
         private void solveTestCase(BufferedReader br) throws IOException {
             int r = Integer.parseInt(br.readLine());
-            ;
             while (r-- > 0) {
                 String s = br.readLine();
                 int pos = s.indexOf(' ');

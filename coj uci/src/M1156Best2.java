@@ -15,8 +15,8 @@ public class M1156Best2 {
 		}
 	}
 
-	private BufferedReader in;
-	private PrintWriter out;
+	private final BufferedReader in;
+	private final PrintWriter out;
 	private StringTokenizer st;
 
 	M1156Best2() throws IOException {
@@ -46,14 +46,6 @@ public class M1156Best2 {
 
 	int nextInt() throws IOException {
 		return Integer.parseInt(next());
-	}
-
-	long nextLong() throws IOException {
-		return Long.parseLong(next());
-	}
-
-	double nextDouble() throws IOException {
-		return Double.parseDouble(next());
 	}
 
 	public static void main(String[] args) throws IOException {
