@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-class m1059
+class m1059b
 {
     public static void main(String[] args) throws Exception
     {
