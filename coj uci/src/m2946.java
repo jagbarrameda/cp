@@ -19,7 +19,7 @@ class m2946 {
             if ((i & 1) == 1) sb.append((i << 1)).append(newline);
             else sb.append(b[i]).append(newline);
         }
-        System.out.println(sb.toString());
+        System.out.println(sb);
     }
 
     public static void setVals() {
