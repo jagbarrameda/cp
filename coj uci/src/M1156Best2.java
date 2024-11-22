@@ -57,6 +57,6 @@ public class M1156Best2 {
 	}
 
 	public static void main(String[] args) throws IOException {
-		new Main();
+		new M1156Best2();
 	}
 }

@@ -1,5 +1,4 @@
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -10,9 +9,9 @@ import java.util.PriorityQueue;
 /**
  * This could be solved by either a few runs of Dijkstra algorithm
  * or one run of Floyd and then a few look-ups, one for each of the pairs to find.
- *
+ * <p>
  * There is the same problem with lower time constraint - TSHPATH
- *
+ * <p>
  * Solved after a few improvements:
  * 1. Use buffered reader + string.split instead of Scanner
  * 1. Use adjacency list as array of ArrayLists
