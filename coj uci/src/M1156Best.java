@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.util.Locale;
 import java.util.StringTokenizer;
 
-public class Main {
+public class M1156Best {
 
 	void solve() throws IOException {
 		int n = nextInt();
@@ -47,11 +47,11 @@ public class Main {
 	}
 
 	public static void main(String[] args) throws IOException {
-		new Main();
+		new M1156Best();
 	}
 
 	// @Override
-	Main() throws IOException {
+	M1156Best() throws IOException {
 		Locale.setDefault(Locale.US);
 		in = new BufferedReader(new InputStreamReader(System.in));
 		out = new PrintWriter(System.out);
