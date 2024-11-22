@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 
 class m2946 {
     static int[] b = new int[50000];
-    static String newline = System.getProperty("line.separator");
+    static String newline = System.lineSeparator();
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
