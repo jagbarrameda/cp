@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/atcoder/atcoder/atcoder.iml" filepath="$PROJECT_DIR$/atcoder/atcoder/atcoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/codeforce/codeforce.iml" filepath="$PROJECT_DIR$/codeforce/codeforce.iml" />
       <module fileurl="file://$PROJECT_DIR$/coj uci/coj uci.iml" filepath="$PROJECT_DIR$/coj uci/coj uci.iml" />
       <module fileurl="file://$PROJECT_DIR$/project euler/project euler.iml" filepath="$PROJECT_DIR$/project euler/project euler.iml" />
