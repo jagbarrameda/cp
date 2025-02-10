@@ -19,7 +19,7 @@ class C2057cKtTest {
     }
 
     fun assertXorSum(l: Int, r: Int, list: List<Int>) {
-        val actualList = c2057c.f(l, r)
+        val actualList = C2057c.f(l, r)
         val (a, b, c) = actualList
         val actual = xorsum(a, b, c)
         val expected = xorsum(list[0], list[1], list[2])
