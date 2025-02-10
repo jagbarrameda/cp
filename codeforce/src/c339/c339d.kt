@@ -1,4 +1,5 @@
 import java.io.PrintWriter
+import C339d.IO;
 
 fun main() {
     var (n, m) = IO.nextInts()
@@ -29,20 +30,22 @@ fun main() {
     IO.done()
 }
 
-object IO {
-    val cin = System.`in`.bufferedReader()
-    val cout = PrintWriter(System.out.bufferedWriter())
-    val endl = "\n"
-    val space = " "
-    fun nextLine() = cin.readLine()!!.trim()
-    fun nextInt() = nextLine().toInt()
-    fun nextLong() = nextLine().toLong()
-    fun nextStrings() = nextLine().split(space)
-    fun nextInts() = nextStrings().map { it.toInt() }
-    fun nextLongs() = nextStrings().map { it.toLong() }
-    fun write(a: Int) = cout.write(a.toString() + space)
-    fun write(s: String) = cout.write(s)
-    fun writeLine(s: String) = cout.write("$s$endl")
-    fun flush() = cout.flush()
-    fun done() = cout.flush()
+object C339d {
+    object IO {
+        val cin = System.`in`.bufferedReader()
+        val cout = PrintWriter(System.out.bufferedWriter())
+        val endl = "\n"
+        val space = " "
+        fun nextLine() = cin.readLine()!!.trim()
+        fun nextInt() = nextLine().toInt()
+        fun nextLong() = nextLine().toLong()
+        fun nextStrings() = nextLine().split(space)
+        fun nextInts() = nextStrings().map { it.toInt() }
+        fun nextLongs() = nextStrings().map { it.toLong() }
+        fun write(a: Int) = cout.write(a.toString() + space)
+        fun write(s: String) = cout.write(s)
+        fun writeLine(s: String) = cout.write("$s$endl")
+        fun flush() = cout.flush()
+        fun done() = cout.flush()
+    }
 }
