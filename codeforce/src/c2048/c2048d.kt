@@ -1,6 +1,5 @@
 import java.io.PrintWriter
-import java.util.Collections.sort
-import kotlin.math.min
+import C2048d.io;
 
 fun main() {
     var t = io.nextInt()
@@ -49,22 +48,24 @@ fun canSolveIntCnt(a: List<Int>, b: List<Int>): List<Int> {
     return ans
 }
 
-object io {
-    val cin = System.`in`.bufferedReader()
-    val cout = PrintWriter(System.out.bufferedWriter())
-    val endl = "\n"
-    val space = " "
-    fun nextLine() = cin.readLine()!!.trim()
-    fun nextInt() = nextLine().toInt()
-    fun nextLong() = nextLine().toLong()
-    fun nextStrings() = nextLine().split(space)
-    fun nextInts() = nextStrings().map { it.toInt() }
-    fun nextLongs() = nextStrings().map { it.toLong() }
-    fun write(a: Int) = cout.write(a.toString() + space)
-    fun write(s: String) = cout.write(s)
-    fun writeLine(s: String) = cout.write("$s$endl")
-    fun flush() = cout.flush()
-    fun done() = cout.flush()
+object C2048d {
+    object io {
+        val cin = System.`in`.bufferedReader()
+        val cout = PrintWriter(System.out.bufferedWriter())
+        val endl = "\n"
+        val space = " "
+        fun nextLine() = cin.readLine()!!.trim()
+        fun nextInt() = nextLine().toInt()
+        fun nextLong() = nextLine().toLong()
+        fun nextStrings() = nextLine().split(space)
+        fun nextInts() = nextStrings().map { it.toInt() }
+        fun nextLongs() = nextStrings().map { it.toLong() }
+        fun write(a: Int) = cout.write(a.toString() + space)
+        fun write(s: String) = cout.write(s)
+        fun writeLine(s: String) = cout.write("$s$endl")
+        fun flush() = cout.flush()
+        fun done() = cout.flush()
+    }
 }
 
 /*
