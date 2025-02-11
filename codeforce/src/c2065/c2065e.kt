@@ -1,29 +1,21 @@
 import java.io.PrintWriter
-import java.util.Arrays.sort
+import kotlin.math.abs
+import kotlin.math.max
 
 fun main() {
-    var t = C2065d.io.nextInt()
+    var t = C2065e.io.nextInt()
     while (t-- > 0) {
-        val (n, m) = C2065d.io.nextInts()
-        val a = Array(n) { C2065d.io.nextInts().toMutableList() }
-        for (i in a.indices) {
-            a[i].add(a[i].sum())
+        val (n, m, k) = C2065e.io.nextInts()
+        if (k > max(n, m) || abs(n - m) > k) C2065e.io.write("-1\n")
+        else {
+            if (n > m) C2065e.io.writeLine("0".repeat(k) + "10".repeat(n - k) + "1".repeat(m - n + k))
+            else C2065e.io.writeLine("0".repeat(n - m + k) + "10".repeat(m - k) + "1".repeat(k))
         }
-        sort(a) { x, y -> y[m].compareTo(x[m]) }
-        var ans = 0L
-        var mult = n * m
-        for (i in a.indices) {
-            for (j in 0 until m) {
-                ans += a[i][j] * mult
-                mult--
-            }
-        }
-        C2065d.io.writeLine("" + ans)
     }
-    C2065d.io.done()
+    C2065e.io.done()
 }
 
-private object C2065d {
+private object C2065e {
     object io {
         val cin = System.`in`.bufferedReader()
         val cout = PrintWriter(System.out.bufferedWriter())
